@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
  */
 public class MessageConverter extends ClassicConverter {
 
-    private final static String PHONE_REGEX = "(\\D|^)((130|131|132|133|145|134|135|136|137|138|139|147|150|151|152|153|155|156|157|158|159|170|176|177|178|180|181|182|183|184|185|186|187|188|189)[0-9]{8})(\\D|$)";
+    private final static String PHONE_REGEX = "(\\D|^)((130|131|132|133|145|134|135|136|137|138|139|147|150|151|152|153|155|156|157|158|159|170|171|176|177|178|180|181|182|183|184|185|186|187|188|189)[0-9]{8})(\\D|$)";
     private final static String ID_CARD_REGEX = "[1-9](\\d{5})(18|19|20)(\\d{2})([01]\\d)([0123]\\d)(\\d{3})(\\d|X|x)";
     @Override
     public String convert(ILoggingEvent event) {
